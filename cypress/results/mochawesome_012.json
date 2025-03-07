@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-07T12:58:35.864Z",
+    "end": "2025-03-07T12:58:45.751Z",
+    "duration": 9887,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6baaed07-63f3-4a1b-9493-c34451c27247",
+      "title": "",
+      "fullFile": "cypress/e2e/searchResultsScreen.cy.js",
+      "file": "cypress/e2e/searchResultsScreen.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6ba854a5-1dc8-4487-861f-3362bab9ecb6",
+          "title": "Consulta de evento com o termo 'Carros'",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve consultar um evento com o termo 'Carros' estando logado",
+              "fullTitle": "Consulta de evento com o termo 'Carros' Deve consultar um evento com o termo 'Carros' estando logado",
+              "timedOut": null,
+              "duration": 8874,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const searchTerm = 'Carros';\n_HomePage.default.searchForTerm(searchTerm);\n_FiltersPage.default.selecionarModalidade('leilao');\n_FiltersPage.default.validarModalidadeSelecionada('leilao');",
+              "err": {},
+              "uuid": "25c3805f-857b-44e9-a06f-8f3009397c55",
+              "parentUUID": "6ba854a5-1dc8-4487-861f-3362bab9ecb6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "25c3805f-857b-44e9-a06f-8f3009397c55"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8874,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

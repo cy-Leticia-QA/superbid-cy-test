@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-03-07T03:40:02.614Z",
+    "end": "2025-03-07T03:40:09.858Z",
+    "duration": 7244,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b83df3d9-10ad-4ba8-805d-538b1a52f6fa",
+      "title": "",
+      "fullFile": "cypress/e2e/searchCarEvent.cy.js",
+      "file": "cypress/e2e/searchCarEvent.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7c4f648d-bb28-4964-bbc0-35474f5a58a6",
+          "title": "Consulta de evento com o termo 'Carros'",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve consultar um evento com o termo 'Carros' estando logado",
+              "fullTitle": "Consulta de evento com o termo 'Carros' Deve consultar um evento com o termo 'Carros' estando logado",
+              "timedOut": null,
+              "duration": 6250,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const searchTerm = 'Carros';\n_HomePage.default.searchForTerm(searchTerm);",
+              "err": {},
+              "uuid": "a111fc46-cd92-4d4b-82e9-7d4622b936fc",
+              "parentUUID": "7c4f648d-bb28-4964-bbc0-35474f5a58a6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a111fc46-cd92-4d4b-82e9-7d4622b936fc"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6250,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

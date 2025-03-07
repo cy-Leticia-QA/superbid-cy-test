@@ -1,0 +1,10 @@
+{
+  "validUser": {
+    "login": "letitest",
+    "password": "TesteSuper1!"
+  },
+  "invalidUser": {
+    "login": "userInvalido",
+    "password": "senhaErrada"
+  }
+}
